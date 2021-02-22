@@ -1,0 +1,36 @@
+
+        li {
+
+            display: inline;
+            margin: 20px;
+            font-size: 30px;
+            font-family: cursive;
+        }
+
+        nav {
+            padding: 5px;
+            background: lightcyan;
+            border-style: solid;
+            border-color: maroon;
+            text-align: center;
+        }
+
+        body {
+
+            background: lightpink;
+
+        }
+
+        .image {}
+
+        h2 {
+            font-size: 30px;
+            font-family: cursive, solid;
+            color: rgb(61, 25, 11);
+
+        }
+
+        p {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
