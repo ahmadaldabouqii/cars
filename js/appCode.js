@@ -22,28 +22,27 @@ alert("Here we go...");
 
 if (avg >= 50 && avg <= 70) {
     nameElement.innerText = "Your Name Is " + StudentName;
-    element.innerText = "the avg is: " + avg + "  your average is acceptable!";
+    element.innerText = "Your avg is: " + avg + " >>   your average is acceptable!";
 }
 
 else if (avg >= 71 && avg <= 80) {
     nameElement.innerText = "Your Name Is " + StudentName;
-    element.innerText = "the avg is: " + avg + "  your average is Good!";
+    element.innerText = "Your avg is: " + avg + " >>   your average is Good!";
 }
 
 else if (avg >= 81 && avg <= 90) {
     nameElement.innerText = "Your Name Is " + StudentName;
-    element.innerText = "the avg is: " + avg + "  your average is Very Good!";
+    element.innerText = "Your avg is: " + avg + " >>   your average is Very Good!";
 }
 
 else if (avg >= 91 && avg <= 99) {
     nameElement.innerText = "Your Name Is " + StudentName;
-    element.innerText = "the avg is: " + avg + "  your average is Excellent!";
+    element.innerText = "Your avg is: " + avg + " >>   your average is Excellent!";
 
 }
 else {
     nameElement.innerText = "Your Name Is " + StudentName;
-    element.innerText = "you are Faild, you need to work hard!";
+    element.innerText = "You are Faild, you need to work hard!";
 }
-
 
 

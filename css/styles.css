@@ -2,6 +2,7 @@ h3{
     font-family: cursive;
     font-size: 30px;
     background-color: coral;
+    text-align: center;
 }
 
 h1{
@@ -14,4 +15,8 @@ h2{
     text-align: center;
     font-family: cursive;
     background:darkcyan;
+}
+
+body{
+    background: cornflowerblue;
 }
