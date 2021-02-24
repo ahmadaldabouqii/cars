@@ -20,6 +20,13 @@ var avg = (convertedMark_1 + convertedMark_2 + convertedMark_3 + convertedMark_4
 var element = document.getElementById('price');
 var nameElement = document.getElementById('theName');
 
+var numOfPhoto = prompt("How often do you want to see the picture? ");
+var convert = parseInt(numOfPhoto);
+
+for (var i = 1; i <= convert; i++) {
+    document.getElementById("img").src = "https://www.thecampuscurrent.com/wp-content/uploads/2020/04/passfail.jpg";
+}
+
 alert("Here we go...");
 
 while (avg >= 50 && avg <= 99) {
