@@ -1,23 +1,19 @@
 confirm("Welcome to My web page Our Students! please enter correct answer");
 
+var StudentName;
 function PromptStudentName() {
-    var StudentName1 = prompt("Enter Your Name Please..");
-    return StudentName1;
-}
-
-PromptStudentName();
-
-function checkStName() {
-    var StudentName = PromptStudentName();
-    while (StudentName === 1 || StudentName === 2 || StudentName === 3 || StudentName === 4 || StudentName === 5 || StudentName === 6 || StudentName === 7 || StudentName === 8 || StudentName === 9 || StudentName === 0 || StudentName === "$" || StudentName === "!" || StudentName === "~" || StudentName === "`" || StudentName === "#" || StudentName === "%" || StudentName === "^" || StudentName === "&" || StudentName === "*" || StudentName === "(" || StudentName === "-" || StudentName === "_" || StudentName === "+" || StudentName === "=" || StudentName === "{" || StudentName === "}" || StudentName === ",") {
-        alert("You need to put a correct name!");
+    StudentName = prompt("Enter Your Name Please..");
+    if (isNaN(StudentName) === false) {
+        alert("You need to write a correct name!");
+        PromptStudentName();
+    } else if (StudentName == "'" || StudentName == "`" || StudentName == "!" || StudentName == "@" || StudentName == "#" || StudentName == "$" || StudentName == "%" || StudentName == "^" || StudentName == "&" || StudentName == "*" || StudentName == "(" || StudentName == ")" || StudentName == "-" || StudentName == "_" || StudentName == "+" || StudentName == "=" || StudentName == "/" || StudentName == "~" || StudentName == "<" || StudentName == ">" || StudentName == "," || StudentName == ";" || StudentName == ":" || StudentName == "|" || StudentName == "?" || StudentName == "{" || StudentName == "}" || StudentName == "[" || StudentName == "]" || StudentName == "¬" || StudentName == "£" || StudentName == ' " ' || StudentName == "\\") {
+        alert("You need to write a correct name without symbol!");
         PromptStudentName();
     }
-
     return StudentName;
 }
 
-checkStName();
+PromptStudentName();
 
 var mark_1 = prompt("Enter Your Mark 1 ..");
 var mark_2 = prompt("Enter Your Mark 2 ..");
@@ -77,4 +73,3 @@ for (var i = 1; i < convert; i++) {
 alert("Here we go...");
 
 avgCalc(convertedMark_1, convertedMark_2, convertedMark_3, convertedMark_4, convertedMark_5);
-
