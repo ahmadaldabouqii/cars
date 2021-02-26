@@ -1,6 +1,23 @@
 confirm("Welcome to My web page Our Students! please enter correct answer");
 
-var StudentName = prompt("Enter Your Name Please..");
+function PromptStudentName() {
+    var StudentName1 = prompt("Enter Your Name Please..");
+    return StudentName1;
+}
+
+PromptStudentName();
+
+function checkStName() {
+    var StudentName = PromptStudentName();
+    while (StudentName === 1 || StudentName === 2 || StudentName === 3 || StudentName === 4 || StudentName === 5 || StudentName === 6 || StudentName === 7 || StudentName === 8 || StudentName === 9 || StudentName === 0 || StudentName === "$" || StudentName === "!" || StudentName === "~" || StudentName === "`" || StudentName === "#" || StudentName === "%" || StudentName === "^" || StudentName === "&" || StudentName === "*" || StudentName === "(" || StudentName === "-" || StudentName === "_" || StudentName === "+" || StudentName === "=" || StudentName === "{" || StudentName === "}" || StudentName === ",") {
+        alert("You need to put a correct name!");
+        PromptStudentName();
+    }
+
+    return StudentName;
+}
+
+checkStName();
 
 var mark_1 = prompt("Enter Your Mark 1 ..");
 var mark_2 = prompt("Enter Your Mark 2 ..");

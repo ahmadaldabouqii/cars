@@ -1,36 +1,30 @@
+li {
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    font-family: cursive;
+}
 
-        li {
+nav {
+    padding: 5px;
+    background: lightcyan;
+    border-style: solid;
+    border-color: maroon;
+    text-align: center;
+}
 
-            display: inline;
-            margin: 20px;
-            font-size: 30px;
-            font-family: cursive;
-        }
+body {
+    background: lightpink;
+}
 
-        nav {
-            padding: 5px;
-            background: lightcyan;
-            border-style: solid;
-            border-color: maroon;
-            text-align: center;
-        }
 
-        body {
+h2 {
+    font-size: 30px;
+    font-family: cursive, solid;
+    color: rgb(61, 25, 11);
+}
 
-            background: lightpink;
-
-        }
-
-        .image {}
-
-        h2 {
-            font-size: 30px;
-            font-family: cursive, solid;
-            color: rgb(61, 25, 11);
-
-        }
-
-        p {
-            font-size: 25px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
+p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
